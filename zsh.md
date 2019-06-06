@@ -36,7 +36,7 @@ git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/z
 
 # .zshrc Modifications
 cp .zshrc .zshrc.bak
-git clone $PATH .zshrc
+git clone https://raw.githubusercontent.com/nsuave/env/master/.zshrc .zshrc
 
 # Re-read the config
 source ~/.zshrc
