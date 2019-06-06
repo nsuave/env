@@ -1,5 +1,5 @@
 # If you come from bash you might have to change your $PATH.
-export PATH=$HOME/bin:/usr/local/bin:/Users/nsuave/.npm-global/bin/:/Users/nsuave/Library/Python/3.7/bin/:$PATH
+export PATH=$HOME/bin:/usr/local/bin:/Users/nsuave/.npm-global/bin/:/Users/nsuave/Library/Python/3.7/bin/:$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/nsuave/.oh-my-zsh"
@@ -104,16 +104,3 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-
-
-export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
-
-# tabtab source for serverless package
-# uninstall by removing these lines or running `tabtab uninstall serverless`
-[[ -f /Users/nsuave/.npm-global/lib/node_modules/serverless/node_modules/tabtab/.completions/serverless.zsh ]] && . /Users/nsuave/.npm-global/lib/node_modules/serverless/node_modules/tabtab/.completions/serverless.zsh
-# tabtab source for sls package
-# uninstall by removing these lines or running `tabtab uninstall sls`
-[[ -f /Users/nsuave/.npm-global/lib/node_modules/serverless/node_modules/tabtab/.completions/sls.zsh ]] && . /Users/nsuave/.npm-global/lib/node_modules/serverless/node_modules/tabtab/.completions/sls.zsh
-# tabtab source for slss package
-# uninstall by removing these lines or running `tabtab uninstall slss`
-[[ -f /Users/nsuave/.npm-global/lib/node_modules/serverless/node_modules/tabtab/.completions/slss.zsh ]] && . /Users/nsuave/.npm-global/lib/node_modules/serverless/node_modules/tabtab/.completions/slss.zsh
