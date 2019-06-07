@@ -1,23 +1,20 @@
-# Homebrew
+# List
+* [Homebrew](https://brew.sh/)
+* [python3](https://docs.python-guide.org/starting/install3/osx/)
+* [asciinema](https://asciinema.org/docs/installation)
+* [node](https://nodejs.org/en/download/)
+* [yarn](https://yarnpkg.com/en/docs/install#mac-stable)
+* [git](https://git-scm.com/book/en/v1/Getting-Started-Installing-Git)
+* [gatsby-cli](https://www.gatsbyjs.org/docs/gatsby-cli/)
+* [awscli](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html)
+
+# Install
+```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-# python3
-brew install python
+brew install python asciinema node yarn git
 
-# asciinema
-brew install asciinema
-
-# npm
-brew install node
-
-# yarn
-brew install yarn
-
-# gatsby-cli
 npm install -g gatsby-cli
 
-# aws
 pip3 install awscli --upgrade --user
-
-# git
-brew install git
+```

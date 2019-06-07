@@ -12,7 +12,8 @@
 
 # Installation
 ```
-./zsh_setup.bash
+git clone https://github.com/nsuave/env.git
+./zsh/zsh_setup.bash
 sudo reboot
 ```
 
@@ -26,5 +27,5 @@ Profiles -> Text
 Font -> Change
 
 ```
-./zsh_config.bash
+./zsh/zsh_config.bash
 ```
