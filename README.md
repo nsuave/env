@@ -1,0 +1,1 @@
+# I'm tired of manually reconfiguring all my stuff.
