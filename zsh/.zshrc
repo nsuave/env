@@ -104,3 +104,5 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias ws="cd /Users/nsuave/Documents/workspace"
+alias gitupdate="for i in `ls ~/Documents/workspace`; do cd ~/Documents/workspace/$i && git pull; done"
