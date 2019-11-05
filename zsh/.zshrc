@@ -105,4 +105,4 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias ws="cd /Users/nsuave/Documents/workspace"
-alias gitupdate="for i in `ls ~/Documents/workspace`; do cd ~/Documents/workspace/$i && git pull; done"
+#alias wsupdate="for repo in `ls ~/Documents/workspace`;cd ~/Documents/workspace/ && cd $repo && echo $repo && git pull"
