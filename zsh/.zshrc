@@ -4,6 +4,9 @@ export PATH=$HOME/bin:/usr/local/bin:/Users/nsuave/.npm-global/bin/:/Users/nsuav
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/nsuave/.oh-my-zsh"
 
+# Variables for golang
+export GOPATH=$HOME/workspace/gocode
+
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
@@ -106,3 +109,4 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias ws="cd /Users/nsuave/Documents/workspace"
 #alias wsupdate="for repo in `ls ~/Documents/workspace`;cd ~/Documents/workspace/ && cd $repo && echo $repo && git pull"
+alias wsupdate='prev=`pwd` && for i in `ls ~/Documents/workspace/`; do echo "Repository: $i" && cd ~/Documents/workspace/$i && git pull; done; echo "Going back to $prev" && cd $prev'
