@@ -5,7 +5,7 @@ export PATH=$HOME/bin:/usr/local/bin:/Users/nsuave/.npm-global/bin/:/Users/nsuav
 export ZSH="/Users/nsuave/.oh-my-zsh"
 
 # Variables for golang
-export GOPATH=$HOME/workspace/gocode
+export GOPATH=$HOME/Documents/workspace/gocode
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
